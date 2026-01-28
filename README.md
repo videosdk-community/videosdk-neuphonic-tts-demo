@@ -1,6 +1,6 @@
-# VideoSDK Neuphonic TTS Demo
+# VideoSDK X Neuphonic TTS Demo
 
-This example demonstrates how to build a conversational AI Voice Agent using VideoSDK with **Neuphonic TTS** in Cascading Pipeline.
+This example demonstrates how to build a conversational AI Voice Agent using VideoSDK's Cascading Pipeline with **Neuphonic TTS**.
 
 ## Prerequisites
 
