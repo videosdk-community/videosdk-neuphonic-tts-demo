@@ -1,6 +1,11 @@
 # VideoSDK X Neuphonic TTS Demo
 
-This example demonstrates how to build a conversational AI Voice Agent using VideoSDK's Cascading Pipeline with **Neuphonic TTS**.
+This example demonstrates how to build a conversational AI Voice Agent using VideoSDK with **Neuphonic TTS** built using the [videosdk-neuphonic](https://pypi.org/project/videosdk-plugins-neuphonic/) plugin.
+
+# Architecture Overview
+
+The agent is built using VideoSDK’s Cascading Pipeline, where each component operates continuously instead of sequential batch processing.
+<img width="3026" height="582" alt="videosdk_casading_pipeline" src="https://github.com/user-attachments/assets/cbdb6a40-efb4-41e9-b056-868b0f9ba287" />
 
 ## Prerequisites
 
@@ -56,9 +61,15 @@ Run the agent with the following command:
 python main.py
 ```
 
-The script will initialize a playground session and provide a URL. Join the room from your browser.
+## What Happens Next?
 
-## Documentation
+The agent creates a VideoSDK playground session and a joinable URL is printed in the terminal, Open the URL in your browser and Start speaking the agent will respond in real time 🎙️
 
-- [Neuphonic TTS Plugin Documentation](https://docs.videosdk.live/ai_agents/plugins/tts/neuphonic-tts)
-- [Cascading Pipeline Documentation](https://docs.videosdk.live/ai_agents/core-components/cascading-pipeline)
+<img width="1459" height="815" alt="Screenshot 2026-01-29 at 12 03 20 PM" src="https://github.com/user-attachments/assets/0b6e20eb-7d84-404e-bdea-ad97757a8230" />
+
+
+## Resources
+
+- Read more about the Neuphonic TTS Plugin [Neuphonic TTS Plugin Documentation](https://docs.videosdk.live/ai_agents/plugins/tts/neuphonic-tts)
+- Explore Cascading pipeline [Cascading Pipeline Documentation](https://docs.videosdk.live/ai_agents/core-components/cascading-pipeline)
+- Neuphonic [Documentation link](https://docs.neuphonic.com/)
