@@ -4,7 +4,7 @@ This example demonstrates how to build a conversational AI Voice Agent using Vid
 
 # Architecture Overview
 
-The agent is built using VideoSDK’s Cascading Pipeline, which provides a flexible, modular approach to building AI agents by allowing you to mix and match different components for Speech-to-Text (STT), Large Language Models (LLM), Text-to-Speech (TTS), Voice Activity Detection (VAD), and Turn Detection.
+The agent is built using VideoSDK’s Pipeline (Cascade Mode), which provides a flexible, modular approach to building AI agents by allowing you to mix and match different components for Speech-to-Text (STT), Large Language Models (LLM), Text-to-Speech (TTS), Voice Activity Detection (VAD), and Turn Detection.
 
 <img width="3026" height="582" alt="videosdk_casading_pipeline" src="https://github.com/user-attachments/assets/cbdb6a40-efb4-41e9-b056-868b0f9ba287" />
 
@@ -72,5 +72,17 @@ The agent creates a VideoSDK playground session and a joinable URL is printed in
 ## Resources
 
 - Read more about the Neuphonic TTS Plugin [Neuphonic TTS Plugin Documentation](https://docs.videosdk.live/ai_agents/plugins/tts/neuphonic-tts)
-- Explore Cascading pipeline [Cascading Pipeline Documentation](https://docs.videosdk.live/ai_agents/core-components/cascading-pipeline)
+- Explore Pipeline (Cascade Mode) [Pipeline Documentation](https://docs.videosdk.live/ai_agents/core-components/pipeline)
 - Neuphonic [Documentation link](https://docs.neuphonic.com/)
+
+## VideoSDK Agents
+
+Build and deploy production-ready AI voice & video agents with [VideoSDK](https://videosdk.live). This repo is your central hub for agent templates, feature examples, and everything you need to ship real-world AI-powered applications.
+
+| Resource | Description |
+|---|---|
+| 🚀 [Use Case Examples](https://github.com/videosdk-live/agents/tree/main/use_case_examples) | Production-ready templates across Customer Support, Healthcare, Tech Support & more |
+| ⚡ [Feature Examples](https://github.com/videosdk-live/agents/tree/main/examples) | Always up-to-date examples showcasing the latest VideoSDK Agent features |
+| 📖 [AI Agents Docs](https://docs.videosdk.live/ai_agents/introduction) | Full guides, concepts & API references to get you started |
+
+> ⭐ If this helps you, star this repo and [`videosdk-live/agents`](https://github.com/videosdk-live/agents) — it keeps us motivated to ship more!
