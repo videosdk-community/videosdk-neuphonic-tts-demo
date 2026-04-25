@@ -52,7 +52,7 @@ The agent is built using VideoSDK’s Pipeline (Cascade Mode), which provides a 
     - `NEUPHONIC_API_KEY`
     - `DEEPGRAM_API_KEY`
     - `GOOGLE_API_KEY`
-    - `VIDEOSDK_AUTH_TOKEN`
+    - `VIDEOSDK_API_KEY` and `VIDEOSDK_SECRET_KEY`
 
 ## Usage
 
